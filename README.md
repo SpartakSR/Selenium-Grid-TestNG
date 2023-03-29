@@ -37,3 +37,5 @@ cmd /C start java -jar selenium-server-4.8.1.jar node --max-sessions 4 --port 55
 11. Добавим в pom.xml зависимость testng.
 
 12. Запустим тесты в Eclipse.
+![image](https://user-images.githubusercontent.com/127390983/228630372-b710e94f-1a8d-4ada-9e02-9b2ce6321627.png)
+
