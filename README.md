@@ -23,7 +23,6 @@ cmd /C start java -jar selenium-server-4.8.1.jar node --max-sessions 4
 ![Selenium Grid_page_1](https://user-images.githubusercontent.com/127390983/228629169-7763c41a-7cff-4eb2-b35e-916ca5cf221e.jpg)
 
 
-
 9. Можно рапределить браузеры по узлам, в start2.bat запишем:
  
 cmd /C start java -jar selenium-server-4.8.1.jar hub  
@@ -31,12 +30,10 @@ cmd /C start java -jar selenium-server-4.8.1.jar node --max-sessions 4 --port 55
 cmd /C start java -jar selenium-server-4.8.1.jar node --max-sessions 4 --port 5556 --driver-implementation "firefox"
 
 10. Запустим start2.bat и откроем http://localhost:4444/grid/console.
-![1](https://user-images.githubusercontent.com/127390983/228631069-e316c9c8-77ae-4126-8b0d-3f7874e1f35b.png)
-
+![Selenium Grid_page_1](https://user-images.githubusercontent.com/127390983/228631571-82216925-f4f8-4d96-8205-577c6900ee7e.jpg)
 
 
 11. Добавим в pom.xml зависимость testng.
 
 12. Запустим тесты в Eclipse.
-![image](https://user-images.githubusercontent.com/127390983/228630372-b710e94f-1a8d-4ada-9e02-9b2ce6321627.png)
-
+![1](https://user-images.githubusercontent.com/127390983/228631267-0392ffc8-87b6-4fce-a250-84f9483a23a1.png)
