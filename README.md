@@ -31,7 +31,8 @@ cmd /C start java -jar selenium-server-4.8.1.jar node --max-sessions 4 --port 55
 cmd /C start java -jar selenium-server-4.8.1.jar node --max-sessions 4 --port 5556 --driver-implementation "firefox"
 
 10. Запустим start2.bat и откроем http://localhost:4444/grid/console.
-![Selenium Grid_page_1](https://user-images.githubusercontent.com/127390983/228628695-4f35343b-f1b3-404f-90a9-412754ea0b86.jpg)
+![1](https://user-images.githubusercontent.com/127390983/228631069-e316c9c8-77ae-4126-8b0d-3f7874e1f35b.png)
+
 
 
 11. Добавим в pom.xml зависимость testng.
